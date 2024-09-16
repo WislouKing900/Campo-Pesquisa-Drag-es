@@ -1,17 +1,13 @@
 function pesquisar() {
     // 1. Define uma função chamada 'pesquisar'. Essa função será responsável por realizar a pesquisa e exibir os resultados.
 
-
-
     let section = document.getElementById('resultados-pesquisa');
-
-
 
     // 2. Obtém um elemento HTML com o ID 'resultados-pesquisa'. Este elemento será usado para exibir os resultados da pesquisa.
     
-    let campoPesquisa = document.getElementById('campo-pesquisa')
+    let campoPesquisa = document.getElementById('campo-pesquisa').value
 
-    console.log('campo-pesquisa')
+    console.log(campoPesquisa)
 
     let resultado = '';
 
@@ -40,6 +36,7 @@ function pesquisar() {
     }
     
     // 7. Atribui o conteúdo da string 'resultado' (que agora contém o HTML completo dos resultados) à propriedade 'innerHTML' do elemento 'section'.
+
     //    Isso substitui o conteúdo HTML existente da seção pelos resultados da pesquisa.
     section.innerHTML = resultado;
   }
