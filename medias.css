@@ -1,0 +1,39 @@
+/* ... (seu CSS existente) ... */
+
+/* Media Queries */
+@media (max-width: 768px) {
+    /* Estilos para telas menores (mobile e alguns tablets) */
+    body {
+      padding: 1rem;
+    }
+  
+    section {
+      width: 100%;
+    }
+  
+    section input {
+      width: 100%;
+    }
+  
+    .resultados-pesquisa {
+      width: 100%;
+      height: auto;
+    }
+  }
+  
+  @media (min-width: 769px) and (max-width: 1024px) {
+    /* Estilos para tablets */
+    /*section {
+        width: 100%;
+    }
+
+    #campo-pesquisa {
+        width: 100%;
+    }*/
+    /* ... seus estilos específicos para tablets ... */
+  }
+  
+  @media (min-width: 1025px) {
+    /* Estilos para telas grandes (laptops e desktops) */
+    /* ... seus estilos específicos para telas grandes ... */
+  }
